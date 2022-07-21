@@ -1,0 +1,4 @@
+enum IconLocation {
+  beforeText,
+  afterText,
+}

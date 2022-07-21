@@ -22,6 +22,8 @@ class GetTrendingMoviesBloc extends Bloc<TrendingMoviesListEvent, GeneralStates>
   final GetTrendingByTimeWindowAbstraction usecase;
 
   List<Movie> movies = [];
+  bool lastPage = false;
+  int page = 1;
 
   GetTrendingMoviesBloc(this.usecase) : super(const LoadingState()) {
     on<GetMoviesListEvent>(_mapGetTrendingMoviesListToState);
