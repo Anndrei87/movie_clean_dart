@@ -7,7 +7,7 @@ import 'package:dart_clean_movies/app/core/shared/presentation/bloc/states/gener
 import 'package:dart_clean_movies/app/core/shared/presentation/bloc/states/loading_state.dart';
 import 'package:dart_clean_movies/app/core/shared/presentation/bloc/states/not_found_state.dart';
 import 'package:dart_clean_movies/app/core/shared/presentation/bloc/states/unauthorized_state.dart';
-import 'package:dart_clean_movies/app/core/shared/widgets/dialogs/generic_dialog.dart';
+import 'package:dart_clean_movies/app/core/shared/presentation/widgets/dialogs/generic_dialog.dart';
 import 'package:dart_clean_movies/app/modules/trending/movie_list/domain/entities/trending_movies_request_param.dart';
 import 'package:dart_clean_movies/app/modules/trending/movie_list/presentation/blocs/events/fetch_movies_list_event.dart';
 import 'package:dart_clean_movies/app/modules/trending/movie_list/presentation/blocs/events/get_movies_list_event.dart';

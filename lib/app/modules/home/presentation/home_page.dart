@@ -1,5 +1,5 @@
 import 'package:dart_clean_movies/app/core/routes/routes.dart';
-import 'package:dart_clean_movies/app/core/shared/widgets/buttons/button_custom.dart';
+import 'package:dart_clean_movies/app/core/shared/presentation/widgets/buttons/button_custom.dart';
 import 'package:dart_clean_movies/app/modules/home/presentation/widgets/cards/home_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';

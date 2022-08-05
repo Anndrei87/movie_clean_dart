@@ -4,7 +4,7 @@ import 'package:dart_clean_movies/app/core/helpers/date_time_helper.dart';
 import 'package:dart_clean_movies/app/core/routes/routes.dart';
 import 'package:dart_clean_movies/app/core/shared/domain/entities/movie_entity.dart';
 import 'package:dart_clean_movies/app/core/shared/presentation/bloc/states/general_states.dart';
-import 'package:dart_clean_movies/app/core/shared/widgets/buttons/button_custom.dart';
+import 'package:dart_clean_movies/app/core/shared/presentation/widgets/buttons/button_custom.dart';
 import 'package:dart_clean_movies/app/modules/trending/movie_trailer/presentation/bloc/events/get_movie_trailer_event.dart';
 import 'package:dart_clean_movies/app/modules/trending/movie_trailer/presentation/bloc/get_trailer_movie_bloc.dart';
 import 'package:flutter/material.dart';

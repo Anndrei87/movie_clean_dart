@@ -1,4 +1,4 @@
-import 'package:dart_clean_movies/app/core/shared/widgets/buttons/button_custom.dart';
+import 'package:dart_clean_movies/app/core/shared/presentation/widgets/buttons/button_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:unicons/unicons.dart';
 

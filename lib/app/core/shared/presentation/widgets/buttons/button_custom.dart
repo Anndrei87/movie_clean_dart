@@ -1,4 +1,4 @@
-import 'package:dart_clean_movies/app/core/shared/widgets/buttons/enums/button_enums.dart';
+import 'package:dart_clean_movies/app/core/shared/presentation/widgets/buttons/enums/button_enums.dart';
 import 'package:flutter/material.dart';
 
 class MediumButton extends StatelessWidget {
