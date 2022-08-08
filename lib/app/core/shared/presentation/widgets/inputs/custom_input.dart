@@ -42,7 +42,7 @@ class CustomInputText extends StatelessWidget {
     this.label,
     this.maxLength,
     this.maxLines,
-    this.isEnabled = false,
+    this.isEnabled = true,
     this.inputType,
     this.controller,
     this.prefixIcon,
