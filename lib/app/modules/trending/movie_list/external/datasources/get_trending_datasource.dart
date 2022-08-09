@@ -29,7 +29,7 @@ class GetTrendingDataSourceImplementation implements GetTrendingDataSource {
       case 401:
         throw UnauthorizedDataSource(response.data['status_message']);
       case 404:
-        throw NotFoundDataSource(response.data['status_message']);
+        throw NotFoundDataSourceException(response.data['status_message']);
       default:
         throw const GetTrendingMovieListException('Houve um erro interno');
     }

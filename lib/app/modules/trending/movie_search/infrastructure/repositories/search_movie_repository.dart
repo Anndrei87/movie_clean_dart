@@ -26,7 +26,7 @@ class SearchMovieRepositoryImplementation implements SearchMovieRepository {
       return Left(SearchMovieFailure(e.messageException));
     } on UnauthorizedDataSource catch (e) {
       return Left(UnauthorizedFailure(e.messageException));
-    } on NotFoundDataSource catch (e) {
+    } on NotFoundDataSourceException catch (e) {
       return Left(NotFoundFailure(e.messageException));
     } on Exception catch (e) {
       return Left(GeneralFailures(e.toString()));

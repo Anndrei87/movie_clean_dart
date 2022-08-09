@@ -26,7 +26,7 @@ class GetMovieTrailerResultsDataSourceImplementation
       case 401:
         throw UnauthorizedDataSource(response.data['status_message']);
       case 404:
-        throw NotFoundDataSource(response.data['status_message']);
+        throw NotFoundDataSourceException(response.data['status_message']);
       default:
         throw const GetMovieTrailerDatasourceException('Houve um erro interno');
     }
