@@ -40,7 +40,7 @@ class SearchMovieBloc extends Bloc<SearchMovieEvents, GeneralStates>
 
   void _mapSearchMovieToState(
       SearchMovieEvent event, Emitter<GeneralStates> emitter) async {
-    movies.clear();
+    movies = [];
     emitter(const LoadingState());
     final result = await usecase(event.parameter);
     emitter(result.fold((l) {
