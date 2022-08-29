@@ -1,16 +1,32 @@
-# dart_clean_movies
 
-A new Flutter project.
+# Clean Architecure - MoviesDB
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📑 Sobre o projeto
 
-A few resources to get you started if this is your first Flutter project:
+Projeto foi realizado para o estudo das boas práticas de estrutura e arquitetura da aplicação. Além de aplicar os conceitos de SOLID para uma melhor usabilidade.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## ✍🏻 Funcionalidades
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A aplicação conta com as seguintes funcionalidades:
+
+- Pesquisa de filmes populares por dia e semana
+- Pesquisa de filmes por campo de texto
+
+
+## 📆 Implementações futuras e melhorias
+
+Este é um projeto em desenvolvimento e ainda conta com melhorias e o incremento de outras funcionalidades, sendo elas:
+
+- Melhorar a UI
+
+## 🛠 Bibliotecas
+
+Utiliza as seguintes bibliotecas de suporte:
+
+- Bloc, Mocktail, Shimmer, rxdart
+
+
+## Sugestões 🗣
+
+Caso tenha alguma sugestão ou queira reportar algum bug, abra um issue no repositório. Ficarei muito grata/o com a sua colaboração! 🤝
